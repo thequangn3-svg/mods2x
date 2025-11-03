@@ -1,0 +1,22 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Dan_BasePracticeDrug80996" Type="Normal">
+		<DisplayName>灵气丹</DisplayName>
+		<Desc>[color=#FF0000]【Việt Bùi chế】Uống một viên, linh khí nghịch thiên, đè đầu thiên kiêu, phá cảnh như chém giấy！[/color]c>
+</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="100000"/>
+        <li Name="NpcLingMaxValue" BAddV="10000"/>           <!-- Tăng giới hạn linh khí -->
+        <li Name="NpcLingRecoverSpeed" BAddV="200"/>          <!-- Hồi phục linh khí -->
+        <li Name="NpcPracticeSpeed" BAddV="500"/>             <!-- Tăng tốc độ tu luyện -->
+        <li Name="NpcHurtAvoid" BAddV="0.5"/>                 <!-- Miễn sát thương 50% -->
+        <li Name="NpcHotResist" BAddV="100"/>                 <!-- Kháng nhiệt -->
+        <li Name="NpcColdResist" BAddV="100"/>                <!-- Kháng lạnh -->
+	     <li Name="MaxAge" AddV="300"/>
+		  <li Name="NpcLingMaxValue" AddV="300000"/>
+        <li Name="LingAbsorbSpeed" AddP="3000"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

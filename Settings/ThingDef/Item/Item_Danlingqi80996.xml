@@ -1,0 +1,38 @@
+﻿<ThingDefs><List> 
+  <ThingDef Type="Item" Name="Item_Dan_BasePracticeDrug80996" Parent="DanBase">
+    <MaxStack>100</MaxStack>
+    <ThingName>Linh Khí Đan</ThingName>
+    <TexPath>res\Sprs\object\object_HULUdanyao04</TexPath>
+    <Desc>Do đan sư Việt Bùi thủ luyện từ linh mộc thượng cổ, linh khí thuần hậu, dược lực ôn hòa. Phục dụng giúp gia tăng giới hạn linh khí căn cơ 10 vạn, đẩy nhanh tốc độ tu luyện, kéo dài ba trăm năm thọ nguyên, hồi phục linh lực nhanh chóng,  Là thánh phẩm quý giá, thích hợp cho tu sĩ mọi cảnh giới, đặc biệt hữu hiệu khi ngồi thiền nhập định.</Desc>
+    <Rate>7</Rate> 
+    <Beauty>10</Beauty>
+    <ElementKind>None</ElementKind>
+    <Item Lable="Dan">
+      <PhysicalLables>
+        <li>Smooth1</li>
+        <li>Hard1</li>
+        <li>Light1</li>
+      </PhysicalLables>
+      <Elixir>
+        <TreeExp>100000000</TreeExp>
+        <Modifier>Dan_BasePracticeDrug80996</Modifier>
+        <Fesistance>0.9</Fesistance>
+        <!-- Các thuộc tính đặc biệt -->
+        <li Name="NpcLingMaxValue" BAddV="100000"/>           <!-- Tăng giới hạn linh khí -->
+        <Ling>1000</Ling>
+   <li Name="MaxAge" BAddV="3000"/>         <!-- Tăng tuổi thọ -->
+        <li Name="NpcLingRecoverSpeed" BAddV="200"/>          <!-- Hồi phục linh khí -->
+      </Elixir>
+      <BeMade>
+        <WorkToMake>10</WorkToMake>
+        <CostItems>
+          <Item name = "Item_Wood" count = "1"/>
+        </CostItems>
+      </BeMade> 
+    </Item>
+    <Element>
+      <Kind>None</Kind>
+      <Value>0</Value> 
+    </Element>
+  </ThingDef>
+</List></ThingDefs>

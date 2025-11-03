@@ -1,0 +1,13 @@
+<!--丹炉丹方：需求等级、成功率、产量数量-->
+<!--Đan phương cho Lò luyện đan: cấp yêu cầu, tỷ lệ thành công, số lượng tạo ra-->
+<DanFormulas>
+  <List>
+    <Dan Name="Dan_BasePracticeDrug80996">
+      <Normal>1</Normal>
+      <ItemName>Item_Dan_BasePracticeDrug80996</ItemName>
+      <Level>1</Level> <!--Cấp yêu cầu-->
+      <SuccessRate>1</SuccessRate> <!--Tỷ lệ thành công-->
+      <Count>50</Count> <!--Số lượng sản xuất-->
+    </Dan>
+  </List>
+</DanFormulas>
